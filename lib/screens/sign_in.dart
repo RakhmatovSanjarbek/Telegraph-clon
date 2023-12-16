@@ -5,6 +5,7 @@ class PinCode extends StatefulWidget {
   const PinCode({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _PinCodeState createState() => _PinCodeState();
 }
 
@@ -27,11 +28,6 @@ class _PinCodeState extends State<PinCode> {
     });
   }
 
-  void _handleClear() {
-    setState(() {
-      _pinCode = "";
-    });
-  }
 
   void _handleOk() {
     if (_pinCode == "2003") {
@@ -102,12 +98,12 @@ class _PinCodeState extends State<PinCode> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Column(
-                  children: const [
+                const Column(
+                  children: [
                     Icon(Icons.lock,size: 80.0,color: Colors.grey,)
                   ],
                 ),
-                SizedBox(height: 100.0,),
+                const SizedBox(height: 100.0,),
                 Text(
                   _pinCode,
                   style: const TextStyle(fontSize: 30.0,color: Colors.grey),
@@ -161,7 +157,7 @@ class _PinCodeState extends State<PinCode> {
   Widget _buildNumberButton(String number) {
     return FloatingActionButton(
       backgroundColor: Colors.black,
-      child: Text(number,style: TextStyle(fontSize: 30.0),),
+      child: Text(number,style: const TextStyle(fontSize: 30.0),),
       onPressed: () => _handleClick(number),
     );
   }

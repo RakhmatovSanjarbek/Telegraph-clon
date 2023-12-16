@@ -9,6 +9,7 @@ class MyDrawerHeader extends StatefulWidget {
 
 class _MyDrawerHeaderState extends State<MyDrawerHeader> {
 
+  // ignore: non_constant_identifier_names
   final bool _KunToTun = true;
 
   @override
@@ -83,24 +84,24 @@ class _MyDrawerHeaderState extends State<MyDrawerHeader> {
               ),
             ],
           ),
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Column(
                 children: [
                   Row(
-                    children: const [
+                    children: [
                       Text(
                         'Санжарбек',
                         style: TextStyle(color: Colors.white, fontSize: 17),
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 5.0,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Text(
                         '+998908856603',
                         style: TextStyle(fontSize: 13.0, color: Colors.grey),
@@ -110,7 +111,7 @@ class _MyDrawerHeaderState extends State<MyDrawerHeader> {
                 ],
               ),
               Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.expand_more,
                     color: Colors.white,

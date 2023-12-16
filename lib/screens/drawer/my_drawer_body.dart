@@ -63,8 +63,8 @@ class _DrawerBodyState extends State<DrawerBody> {
                       ),
                     ],
                   ),
-                  Row(
-                    children: const[
+                  const Row(
+                    children: [
                       Icon(Icons.settings_outlined,color: Colors.white,size: 24.0,)
                     ],
                   )
@@ -112,19 +112,19 @@ class _DrawerBodyState extends State<DrawerBody> {
                       ),
                     ],
                   ),
-                  Row(
-                    children: const[
+                  const Row(
+                    children: [
                       Icon(Icons.settings_outlined,color: Colors.white,size: 24.0,)
                     ],
                   )
                 ],
               ),
               const SizedBox(height: 8.0,),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
-                    children: const [
+                    children: [
                       SizedBox(width: 4.0,),
                       Icon(CupertinoIcons.add,color: Colors.grey,size: 30.0,),
                       SizedBox(width: 14.0,),
@@ -145,8 +145,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.folder,
                 color: Colors.white,
@@ -166,8 +166,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.file_download_outlined,
                 color: Colors.white,
@@ -187,8 +187,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.paperclip,
                 color: Colors.white,
@@ -208,8 +208,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.cube_fill,
                 color: Colors.white,
@@ -229,8 +229,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.clock,
                 color: Colors.white,
@@ -250,8 +250,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.messenger_outline,
                 color: Colors.white,
@@ -272,11 +272,11 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
+          child: const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children:  [
               Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.folder,
                     color: Colors.white,
@@ -292,7 +292,7 @@ class _DrawerBodyState extends State<DrawerBody> {
                 ],
               ),
               Row(
-                children: const [
+                children: [
                   Icon(Icons.expand_more,color: Colors.white,)
                 ],
               ),
@@ -308,8 +308,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children:  [
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Icon(
                     Icons.person_outline,
                     color: Colors.white,
@@ -345,8 +345,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children:  [
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Icon(
                     Icons.person_add_alt_outlined,
                     color: Colors.white,
@@ -380,8 +380,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.location_on_outlined,
                 color: Colors.white,
@@ -401,8 +401,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.person_alt,
                 color: Colors.white,
@@ -422,8 +422,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.phone,
                 color: Colors.white,
@@ -444,8 +444,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.settings_outlined,
                 color: Colors.white,
@@ -465,8 +465,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.settings,
                 color: Colors.white,
@@ -486,8 +486,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.paintbrush,
                 color: Colors.white,
@@ -507,8 +507,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.person_add_outlined,
                 color: Colors.white,
@@ -528,8 +528,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 CupertinoIcons.info,
                 color: Colors.white,
@@ -549,8 +549,8 @@ class _DrawerBodyState extends State<DrawerBody> {
           width: double.infinity,
           height: 48.0,
           // color: Colors.blue,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Icon(
                 Icons.person_off,
                 color: Colors.white,
@@ -566,12 +566,12 @@ class _DrawerBodyState extends State<DrawerBody> {
           ),
         ),
         const SizedBox(height: 8.0,),
-        SizedBox(
+        const SizedBox(
           width: double.infinity,
           height: 50.0,
           // color: Colors.blue,
           child: Column(
-            children: const [
+            children: [
               Text("Android uchun Telegraph vT9.54-P10.8 (3227)",style: TextStyle(color: Colors.grey,fontSize: 12.0),),
               Text("store bundled arm64-8a",style: TextStyle(color: Colors.grey,fontSize: 12.0),),
             ],

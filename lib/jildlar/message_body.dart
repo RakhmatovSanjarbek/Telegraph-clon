@@ -1,7 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Message extends StatelessWidget {
+  const Message({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -10,13 +11,14 @@ class Message extends StatelessWidget {
           itemCount: 30,
           itemBuilder: (BuildContext context, int index) {
             return Container(
+              margin: const EdgeInsets.symmetric(horizontal: 10.0,vertical: 10.0),
               child: Column(
                   children:[ Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Row(
                         children: [
-                          CircleAvatar(
+                          const CircleAvatar(
                             child: CircleAvatar(
                               radius: 125.0,
                               backgroundImage: AssetImage("images/p1.jpg"),
@@ -24,7 +26,9 @@ class Message extends StatelessWidget {
                           ),
                           Row(
                               children: [Container(
-                                child: Row(
+                                margin: const EdgeInsets
+                                    .symmetric(horizontal: 25.0),
+                                child: const Row(
 
                                   children: [Column(
                                     children: [
@@ -35,8 +39,6 @@ class Message extends StatelessWidget {
                                   ),
                                   ],
                                 ),
-                                margin: EdgeInsets
-                                    .symmetric(horizontal: 25.0),
                               ),
                               ]
                           ),
@@ -46,18 +48,16 @@ class Message extends StatelessWidget {
 
                         children: [
                           Icon(Icons.task_alt,color: Colors.blue.shade600),
-                          SizedBox(width: 5.0,),
+                          const SizedBox(width: 5.0,),
                           Text("20:12",style: TextStyle(color: Colors.grey.shade600),)
                         ],
                       ),
                     ],
 
                   ),
-                    Divider(thickness: 1.0,color: Colors.black,)
+                    const Divider(thickness: 1.0,color: Colors.black,)
                   ]
               ),
-
-              margin: EdgeInsets.symmetric(horizontal: 10.0,vertical: 10.0),
 
             );
           }),
